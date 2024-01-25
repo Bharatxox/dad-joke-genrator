@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.box{
+    width: 600px;
+    max-height: 250px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    padding: 20px;
+    border-radius: 5px;
+}
+button{
+    padding: 5px 10px;
+    border: 3px solid rgb(236, 95, 156);
+    background-color: rgb(236, 95, 156);;
+    /* background: transparent; */
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 50px;
+    color: rgb(236, 95, 156);
+    color: white;
+    font-weight: 700;
+    font-family: 'Shadows Into Light', cursive;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Climate Crisis', sans-serif;
+    color: rgb(236, 95, 156);
+    /* -webkit-text-stroke: 0.1px black; */
+}
+p{
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    text-align: center;
+
+}
